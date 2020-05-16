@@ -544,6 +544,75 @@ a:hover {
 }
 
 /*=================================================================
+  LMS Startpage
+==================================================================*/
+.hero-area-lms {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-area-lms:before {
+  content: '';
+  background: rgba(53, 59, 67, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-area-lms .block {
+  text-align: center;
+  z-index: 99;
+}
+
+.hero-area-lms .block .video-button {
+  background: #fff;
+  color: #57cbcc;
+  display: inline-block;
+  height: 196px;
+  width: 196px;
+  border-radius: 196px;
+}
+
+.hero-area-lms .block h1 {
+  font-size: 90px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .hero-area-lms .block h1 {
+    font-size: 60px;
+  }
+}
+
+.hero-area-lms .block p {
+  color: #fff;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hero-area-lms .block .btn-transparent {
+  margin-top: 40px;
+  border-color: #fff;
+  padding: 14px 50px;
+  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+
+/*=================================================================
   About us section
 ==================================================================*/
 .about .block {
@@ -644,12 +713,12 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: #fff;
 }
 
 .call-to-action p {
   font-size: 16px;
-  color: #666;
+  color: #fff;
 }
 
 .call-to-action .btn-main {
